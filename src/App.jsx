@@ -2,7 +2,7 @@ import React, {createContext, useState} from 'react'
 import Navbar from './Navbar'
 import Countries from "./Countries"
 import "./App.css"
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import {HashRouter as Router, Route, Switch} from "react-router-dom"
 import Country from './Country'
 
 
